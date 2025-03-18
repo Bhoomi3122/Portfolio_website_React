@@ -1,0 +1,40 @@
+#outer-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30vh;
+    margin-top: 10vh;
+    flex-direction: column;
+    text-align: center;
+}
+#outer-div h2{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: -2px;
+}
+#online-div{
+    background-color: rgb(227, 227, 227);
+    width: 250px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px;
+}
+#online-div a{
+    color: #060011;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.icon{
+    margin-right: 10px;
+}
+#download-div button{
+    background-color: rgb(227, 227, 227);
+    text-align: center;
+    width: 290px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+}

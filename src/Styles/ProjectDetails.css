@@ -1,0 +1,76 @@
+#single-head{
+    text-align: center;
+    font-size: 28px;
+    font-family: "MerriWeather";
+    letter-spacing: 1px;
+}
+.group-head{
+    font-size: 24px;
+    text-align: center;
+}
+.single-section-div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 5% 10px 5%;
+    align-items: flex-start;
+    text-align: justify;
+}
+.two-section-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.left-div img{
+    width: 430px;
+    height: 450px;
+    margin-right: 40px !important;
+}
+.right-div{
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.status{
+    background-color: rgb(227, 227, 227);
+    color: #060011;
+    width: 100px;
+    padding: 8px 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.right-div a{
+    color: rgb(227, 227, 227);
+    background-color: rgb(219, 77, 0);
+    padding: 10px 18px 10px 18px;
+    text-decoration: none;
+}
+.detailed_description{
+    margin-bottom: 43px;
+}
+.link-icon{
+    margin-left: 5px;
+}
+.tech-stack-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-icon{
+    font-size: 60px;
+    width: 100%;
+    
+}
+.tech-div{
+    margin: 0px 2%;
+}
+.tech-div:hover{
+    color: rgb(219, 77, 0);
+    cursor: pointer;
+    
+}
+.tech-name{
+    padding-left: 2px;
+}

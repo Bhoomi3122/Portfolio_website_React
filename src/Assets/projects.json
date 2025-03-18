@@ -1,0 +1,241 @@
+[
+  {
+    "title": "Sahayak - Community Support Platform",
+    "tech_stack": [
+      {
+        "name": "NodeJS",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "SiMongodb"
+      }
+    ],
+    "status": "In Progress",
+    "short_description": "A platform for women to voice security concerns and access community support.",
+    "detailed_description": [
+      "Sahayak is a community support platform built to enhance women's security by providing a space where they can voice their concerns about issues that often go unheard. Many incidents that seem minor at first can later escalate into major security threats if left unaddressed. By offering a dedicated platform for discussion, Sahayak ensures that such concerns are acknowledged and taken seriously before they lead to serious consequences.",
+      "Sahayak allows users to create posts about security concerns, read posts shared by others, access informative blogs, and find essential helpline numbers for immediate assistance. The need for such a platform arises from the lack of a centralized space where women can openly share their safety concerns and seek community support. Many security-related incidents go unnoticed because there is no structured way for individuals to report or discuss them, making Sahayak a crucial initiative in bridging this gap.",
+      "The impact of Sahayak is significant as it empowers women by giving them a voice and creating awareness about security issues. It helps organizations, NGOs, and authorities understand recurring security concerns and take appropriate measures to improve safety. By promoting awareness and offering a space for open discussions, Sahayak fosters a sense of community and collective responsibility towards enhancing women's security."
+    ],
+    "key_features_heading": "Key Features",
+    "key_features": [
+      "Users can create posts, read others' posts, access helplines, and explore blogs to stay updated on women's security issues, helping them stay informed and aware of important concerns effectively.",
+      "The platform will include authentication, ensuring only verified users can create posts, which helps maintain credibility, prevent misuse, and create a safe, trustworthy, and responsible online environment for discussions.",
+      "Users will have the option to filter posts based on different categories like location, type of issue, or urgency, making it easier to find relevant and important information quickly.",
+      "The system will allow users to comment on posts, enabling them to express opinions, share experiences, suggest possible solutions, and engage in productive discussions on security-related concerns actively."
+    ]
+    
+    ,
+    "skills_used": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Frontend & Backend Development"
+    ],
+    "start_date": "January 2024",
+    "end_date": "Ongoing",
+    "image_src": "https://img.freepik.com/premium-vector/diverse-group-womens-hands-putting-together-teamwork-unity-concept_1323048-61227.jpg?semt=ais_hybrid",
+    "project_url": "https://github.com/Bhoomi3122/Sahayak-Full-Stack-Project"
+  },
+  {
+    "title": "University Management System (Web)",
+    "tech_stack": [
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "LocalStorage",
+        "icon": "VscDatabase"
+      }
+    ],
+    "status": "Completed",
+    "short_description": "A system for managing university student records efficiently using React.",
+    "detailed_description": [
+      "University Management System is a web-based platform built to efficiently manage student data within a university. Handling student records manually can be time-consuming and prone to errors, making it essential to have a digital solution that ensures accuracy and accessibility. This system provides a streamlined approach to organizing and maintaining student records with ease.",
+      "The platform offers essential features such as adding new student details, searching for specific student records, updating existing information, and deleting records when needed. By utilizing LocalStorage for data persistence, the system ensures that data remains available even after page reloads. The need for such a system arises from the challenges faced in traditional record-keeping, where retrieving or modifying student information can be cumbersome.",
+      "This system enhances efficiency by automating record management while also ensuring data integrity. It effectively handles every possible error condition, such as duplicate entries or invalid inputs, to maintain accurate and consistent records. By reducing manual workload and improving accessibility, the University Management System significantly improves the overall management of student data."
+    ],
+    "key_features_heading": "Key Features",
+    "key_features": [
+      "Users can add new students, update details, search records, and view or delete existing entries efficiently within the system for smooth data management and accessibility.",
+      "The system ensures error handling by validating phone numbers, checking data integrity, and preventing issues to provide a seamless and reliable user experience.",
+      "Each student is assigned a unique roll number as an ID, preventing duplication, ensuring accurate records, and maintaining proper database integrity within the application.",
+      "Optimizes storage and retrieval processes to ensure efficient memory usage, quick access to student records, and smooth performance for a hassle-free user experience."
+    ]
+    
+    
+    ,
+    "skills_used": [
+      "React",
+      "JavaScript",
+      "LocalStorage",
+      "State Management"
+    ],
+    "start_date": "October 2023",
+    "end_date": "December 2023",
+    "image_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXnoeUsi_VkeHREJrUmL6bmzMJxRwYdWED_tQbXy2aKLka_6kYPr9_5vaSYYCzv_WE1Lg&usqp=CAU",
+    "project_url": "https://github.com/Bhoomi3122/CampusRecords-Student-Records-Management-Platform---React-App"
+  },
+  {
+    "title": "Smart Home Automation",
+    "tech_stack": [
+      {
+        "name": "Arduino",
+        "icon": "SiArduino"
+      },
+      {
+        "name": "IoT Sensors",
+        "icon": "FaMicrochip"
+      }
+    ],
+    "status": "Completed",
+    "short_description": "An IoT-based home automation system for smart device control and monitoring.",
+    "detailed_description": [
+      "Smart Home Automation is an IoT-based project built using sensors and Arduino to automate home appliances such as lights, fans, and other electrical devices. With the growing need for smart and efficient home management, this system provides users with a seamless way to control their home environment remotely. It enhances convenience, security, and energy efficiency through automation and remote access.",
+      "The system allows users to control appliances using a mobile application or voice commands, making home management effortless. By integrating IoT sensors, it enables real-time monitoring and automation of devices based on predefined conditions. The need for such a system arises from the increasing demand for smart homes that offer ease of access and optimized energy consumption while reducing manual intervention.",
+      "This project significantly improves energy efficiency by incorporating automated power-saving features, ensuring that appliances are used only when needed. It enhances user comfort by allowing remote access, reducing electricity wastage, and providing a smart way to manage appliances. With the integration of IoT technology, Smart Home Automation contributes to a sustainable and modern living environment."
+    ],
+    "key_features_heading": "Key Features",
+    "key_features":[
+      "Built using Arduino and IoT sensors, enabling smart automation and seamless device control to enhance efficiency, security, and convenience in a modern home environment.",
+      "Features a human sensor door that automatically opens upon detecting movement, ensuring accessibility, ease of use, and improved security for residents and visitors.",
+      "Supports app and voice-controlled lights and fans, providing a comfortable, luxurious, and effortless home automation experience for enhanced convenience and relaxation.",
+      "Includes a gas leakage sensor that detects LPG leaks and triggers a buzzer alert, ensuring quick response, resident safety, and effective hazard prevention measures."
+    ]
+    
+    ,
+    "skills_used": [
+      "Arduino Programming",
+      "IoT Sensors",
+      "Embedded Systems",
+      "C++"
+    ],
+    "start_date": "August 2023",
+    "end_date": "November 2023",
+    "image_src": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/08/automate-home-budget.jpg",
+    "project_url": "https://github.com/Bhoomi3122/Smart-home-automation-arduino-ide-"
+  },
+  {
+    "title": "TextUtils",
+    "tech_stack": [
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "SiJavascript"
+      },
+      {
+        "name": "CSS",
+        "icon": "SiCss3"
+      }
+    ],
+    "status": "Completed",
+    "short_description": "A text utility app for performing various text modifications quickly and efficiently.",
+    "detailed_description": [
+      "TextUtils is a simple and user-friendly application designed to perform basic text operations efficiently. It allows users to capitalize the first letter of each word in a sentence, reverse text, and count words and characters. The tool aims to reduce human effort while improving time efficiency, making text processing faster and more convenient.",
+      "This web-based application provides essential text manipulation features, including case conversion, text reversal, and word/character counting. It is designed to assist users who frequently work with text, such as students, writers, and professionals, by automating repetitive tasks. The need for such an application arises from the requirement to quickly modify text without manual effort.",
+      "TextUtils enhances productivity by offering an intuitive user interface that simplifies text modifications. It minimizes the time spent on basic text operations and ensures accuracy in formatting and text analysis. By streamlining these tasks, the application serves as a valuable tool for users looking for quick and efficient text processing solutions."
+    ],
+    "key_features_heading": "Key Features",
+    "key_features": [
+      "TextUtils is a simple and efficient application that provides word count, character count, sentence reversal, and capitalization features to improve text processing efficiency and user convenience effectively.",
+      "Users can easily convert text to uppercase, lowercase, or capitalize words automatically, reducing manual effort and significantly saving time while performing various essential text-editing tasks effortlessly.",
+      "The application features a clean, intuitive, and user-friendly interface, ensuring smooth navigation and effortless execution of multiple text-editing operations with enhanced usability and accessibility.",
+      "A built-in dark mode toggle enhances readability and comfort, allowing users to adjust the display settings according to different lighting conditions for better visibility and eye strain reduction."
+    ]
+    
+    
+    
+    ,
+    "skills_used": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "State Management"
+    ],
+    "start_date": "July 2023",
+    "end_date": "August 2023",
+    "image_src": "https://static.vecteezy.com/system/resources/previews/021/143/257/non_2x/text-document-file-line-icon-illustration-vector.jpg",
+    "project_url": "https://github.com/Bhoomi3122/Simple-Text-Tool-React-App-2.0"
+  },
+  {
+    "title": "Daily Goals Tracker",
+    "tech_stack": [
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "LocalStorage",
+        "icon": "VscDatabase"
+      }
+    ],
+    "status": "Completed",
+    "short_description": "A simple task-tracking app for managing and completing daily goals.",
+    "detailed_description": [
+      "Daily Goals Tracker is a web-based application built to help users create, track, and manage their daily goals efficiently. It provides a simple yet effective way to stay organized by allowing users to set tasks, mark them as completed, and delete them when necessary. The platform is designed to improve personal productivity by offering a structured approach to goal management.",
+      "This application enables users to maintain a clear record of their daily tasks, ensuring they stay focused on their objectives. The need for such an application arises from the increasing demand for effective time management tools that help individuals stay disciplined and achieve their goals. By utilizing Local Storage, the app ensures that tasks are preserved across sessions, allowing users to continue their progress without losing data.",
+      "Daily Goals Tracker significantly enhances productivity by eliminating the hassle of manually tracking tasks. It streamlines task management, reduces the chances of forgetting important activities, and encourages consistency in goal achievement. By providing an intuitive and user-friendly interface, the app serves as a valuable tool for students, professionals, and anyone looking to optimize their daily routines."
+    ],
+    "key_features_heading": "Key Features",
+    "key_features": [
+      "Users can efficiently track their daily goals by adding new tasks, updating existing ones, and deleting completed tasks to maintain a well-organized and structured task list effortlessly.",
+      "The application provides a user-friendly interface, ensuring seamless task management by allowing users to create, edit, and remove tasks with minimal effort and enhanced accessibility for convenience.",
+      "Utilizes Local Storage to retain task data across sessions, ensuring persistence and allowing users to resume their progress without losing important task details or requiring manual re-entry.",
+      "Designed for simplicity and efficiency, the application helps users stay productive by organizing tasks effectively, setting priorities, and achieving daily objectives in a structured and manageable manner."
+    ]
+    ,
+    "skills_used": [
+      "React",
+      "JavaScript",
+      "LocalStorage",
+      "State Management"
+    ],
+    "start_date": "June 2023",
+    "end_date": "July 2023",
+    "image_src": "https://m.media-amazon.com/images/I/61BwqkdPshL.jpg",
+    "project_url": "https://github.com/Bhoomi3122/Daily-goals-tracker---React-App"
+  },
+  {
+    "title": "University Management System (Console)",
+    "tech_stack": [
+      {
+        "name": "C++",
+        "icon": "SiCplusplus"
+      }
+    ],
+    "status": "Completed",
+    "short_description": "A C++ console application for managing university student records efficiently.",
+    "detailed_description": [
+      "This is a console-based application built using C++ for efficiently managing university student records. It provides a structured way to store, retrieve, and update student details, ensuring a seamless record-keeping process. The system is designed to be lightweight and easy to use, making it an ideal solution for academic institutions.",
+      "The application allows users to add new student records, search for existing ones, and update details as needed. It ensures data integrity by assigning unique roll numbers to each student and implements validation checks to prevent incorrect data entry. The need for such a system arises from the challenges universities face in handling student information manually, which can lead to errors and inefficiencies.",
+      "By automating student record management, this application enhances accuracy and reduces the chances of data inconsistencies. It also improves efficiency by minimizing human errors and ensuring that all student data is stored and accessed in an organized manner. With its robust error-handling mechanisms, the system provides a reliable and efficient way to manage university records."
+    ],
+    "key_features_heading": "Key Features",
+    "key_features": [
+      "Allows adding new students with unique roll numbers, ensuring proper data integrity and preventing duplication for maintaining an accurate and reliable student database system efficiently.",
+      "Provides an efficient search functionality that enables users to quickly find student records while offering appropriate feedback when no matching records are found in the system.",
+      "Supports updating student details, ensuring accurate modifications with validation checks for critical information such as phone numbers, preventing incorrect or invalid data entries effectively.",
+      "Designed to enhance user experience by streamlining student record management, making it easier to organize, retrieve, and maintain essential academic information with minimal effort and time consumption."
+    ]
+    ,
+    "skills_used": [
+      "C++",
+      "Data Structures",
+      "File Handling"
+    ],
+    "start_date": "May 2023",
+    "end_date": "June 2023",
+    "image_src": "https://www.rexocampus.com/images/university-icon/Educational-ecosystem.png",
+    "project_url": "https://github.com/Bhoomi3122/University-Management-System---unique-project"
+  }
+]
