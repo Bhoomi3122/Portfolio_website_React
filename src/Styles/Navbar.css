@@ -1,31 +1,39 @@
-#navbar-container{
+/* Navbar Container */
+#navbar-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: #0a0019 ;
+    background-color: #0a0019;
     position: relative;
+    padding: 15px 20px;
 }
-#navbar-links{
+
+/* Navbar Links */
+#navbar-links {
     display: flex;
     list-style-type: none;
     gap: 70px;
     color: rgb(204, 204, 204);
 }
-#navbar-links li{
+
+#navbar-links li {
     position: relative;
 }
-#navbar-links li a{
+
+#navbar-links li a {
     color: beige;
     text-decoration: none;
 }
-#navbar-links li a:hover{
+
+#navbar-links li a:hover {
     cursor: pointer;
     font-weight: 500;
 }
-#navbar-links li::after{
+
+#navbar-links li::after {
     content: "";
-    position:absolute;
+    position: absolute;
     width: 0;
     left: 0;
     bottom: 0;
@@ -33,11 +41,89 @@
     background-color: #6f42c1;
     transition: width 0.4s ease-in-out;
 }
-#navbar-links li:hover::after{
+
+#navbar-links li:hover::after {
     width: 110%;
 }
-#logo{
+
+/* Logo */
+#logo {
     height: 50px;
-    position:absolute;
+    position: absolute;
     left: 20px;
+}
+
+/* Hamburger Icon (Hidden on large screens) */
+.hamburger {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+/* Sidebar (Hidden by default) */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Initially hidden */
+    width: 250px;
+    height: 100%;
+    background: #0a0019;
+    color: white;
+    padding-top: 60px;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    right: 0; /* Slide in */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive - Hide Navbar Links and Show Hamburger */
+@media (max-width: 900px) {
+    #navbar-links {
+        display: none; /* Hide normal navbar */
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger */
+    }
 }

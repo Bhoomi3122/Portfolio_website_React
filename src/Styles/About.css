@@ -1,16 +1,18 @@
 #vector-img{
     height: 400px;
     margin-top: 10px;
+    margin-left: 10% !important;
 }
-#main-div{
+#main-div-about{
     display: flex;
     justify-content: space-between;
 }
-#left-div{
+#left-div-about{
     width: 50%;
     margin-left: 50px;
+    text-align: justify;
 }
-#right-div{
+#right-div-about{
     width: 50%;
 }
 .coding-icon {
@@ -69,7 +71,7 @@
     transition: all 0.3s ease-in-out;
     background-color: #060011;
     height: 100px;
-    width: 280px;
+    width: auto;
 }
 
 .skills-icon {

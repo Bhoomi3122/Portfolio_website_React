@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Photo from "../Images/profile.png";
 import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
+import "../Styles/Mediaqueries.css";
 
 const Home = () => {
   const problemCount = useRef(null);
@@ -16,22 +17,21 @@ const Home = () => {
     })
   };
   return (
-    <div>
+    <div id="home">
       <div id="main-div">
         <div id="left-div">
           <div>
             <h1 id="greet-head">Hello, I am Bhoomi Garg</h1>
           </div>
           <div id="typewriter-div">
-            <h2 id="typewriter-letter">A</h2>
             <h2 id="typewriter-head">
               <Typewriter
                 options={{
                   strings: [
-                    "Computer Science & Design Student",
-                    "Web Developer",
-                    "DSA Enthusiast",
-                    "Problem Solver",
+                    "A Computer Science & Design Student",
+                    "A Web Developer",
+                    "A DSA Enthusiast",
+                    "A Problem Solver",
                   ],
                   autoStart: true,
                   loop: true,

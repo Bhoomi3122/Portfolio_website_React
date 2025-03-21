@@ -8,9 +8,9 @@ import { FaCode } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div>
-      <div id="main-div">
-        <div id="left-div">
+    <div id='about'>
+      <div id="main-div-about">
+        <div id="left-div-about">
           <h2>About Me</h2>
           <div><p>I am a Computer Science and Design student aspiring to become an SDE. Passionate about Web Development and Data Structures & Algorithms, I constantly refine my skills and explore new technologies to stay ahead in the ever-evolving tech world.</p></div>
           <div>
@@ -29,7 +29,7 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div id="right-div">
+        <div id="right-div-about">
           <img src={Vector} alt="" id="vector-img" />
         </div>
       </div>

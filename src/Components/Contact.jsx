@@ -48,7 +48,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={`contact-wrapper ${isVisible ? "show" : ""}`}>
+    <div className={`contact-wrapper ${isVisible ? "show" : ""}`} id="contact-component">
       <div id="contact">
         <h2>Contact Me</h2>
         <form onSubmit={handleSubmit}>
