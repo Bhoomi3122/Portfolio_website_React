@@ -41,8 +41,13 @@
     .social-label {
         font-size: 16px;
     }
-    .project-div{
+
+    .project-div {
         width: auto !important;
+    }
+
+    .right-div-project {
+        margin-right: 5% !important;
     }
 }
 
@@ -120,20 +125,29 @@
     #navbar-links {
         gap: 50px !important;
     }
-    .right-div-project{
-        margin-right: 8%;
-        width: 100% !important;
-        max-height: 800px !important;
-    }
-    .left-div-project{
-        width: auto!important;
-    }
 
-    .left-div-project img{
-        margin-top: 20% !important;
-        height: 600px !important;
+    .left-div-project img {
+        width: auto !important;
     }
 }
+
+@media (max-width:1110px) {
+    .two-section-div {
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center !important;
+    }
+
+    .right-div-project {
+        width: 90% !important;
+    }
+
+    .status,
+    .demo_button {
+        margin-left: 45% !important;
+    }
+}
+
 
 @media (max-width: 900px) {
     #greet-head {
@@ -208,6 +222,19 @@
     #navbar-container {
         background-color: #060011;
     }
+
+    .demo_button a {
+        padding: 0% 18% 0% 18% !important;
+    }
+
+    .demo_button {
+        margin: 0% !important;
+    }
+
+    .status {
+        margin: 0px;
+        margin-right: 40% !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -256,18 +283,6 @@
         gap: 10px !important;
     }
 
-    .left-div-project img {
-        display: none;
-    }
-
-    .right-div-project {
-        width: 85% !important;
-    }
-
-    .status {
-        text-align: center;
-        margin-left: 40%;
-    }
 
     #left-div-about {
         margin: 5% !important;
@@ -316,8 +331,31 @@
     #skills-div {
         grid-template-columns: repeat(3, 1fr) !important;
     }
-    #contact{
+
+    #contact {
         width: 60% !important;
+    }
+
+    .left-div-project img {
+        width: 300px !important;
+        height: 350px !important;
+    }
+
+    #single-head {
+        font-size: 26px !important;
+        margin-top: 10% !important;
+    }
+
+    .status {
+        margin: 0px !important;
+        margin-left: 35% !important;
+    }
+
+    .right-div-project {
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0% !important;
+        text-align: center;
     }
 }
 
@@ -417,6 +455,15 @@
     .sidebar ul li a {
         font-size: 0.9rem !important;
     }
+
+    .status {
+        margin: 0px !important;
+        margin-left: 30% !important;
+    }
+
+    .left-div-project img {
+        height: 250px !important;
+    }
 }
 
 @media (max-width: 400px) {
@@ -430,16 +477,22 @@
     /* Make typewriter text responsive */
     #typewriter-div {
         font-size: 0.75rem;
-        max-width: 80%;  /* Limits the width to avoid overflow */
-        display: block;  /* Ensures it behaves as a block element */
-        text-align: center;  /* Keeps text centered */
-        word-break: break-word;  /* Ensures words break if needed */
-        overflow-wrap: break-word;  /* Forces breaking at the word level */
-        white-space: normal;  /* Allows text wrapping (important!) */
+        max-width: 80%;
+        /* Limits the width to avoid overflow */
+        display: block;
+        /* Ensures it behaves as a block element */
+        text-align: center;
+        /* Keeps text centered */
+        word-break: break-word;
+        /* Ensures words break if needed */
+        overflow-wrap: break-word;
+        /* Forces breaking at the word level */
+        white-space: normal;
+        /* Allows text wrapping (important!) */
         margin-left: 10% !important;
         margin-right: 10% !important;
     }
-    
+
 
     /* Adjust section headings */
     #count-head,
@@ -501,33 +554,42 @@
         width: 100% !important;
     }
 
-    #left-div{
+    #left-div {
         margin-right: 15px !important;
     }
-    #right-div{
+
+    #right-div {
         margin-top: 20px !important;
     }
-    #social-div a{
-        margin:10px !important;
-    }
-    .coding-icon{
-        font-size: 40px !important;
-    }
-    #coding-div h1{
-        font-size: 22px !important;
-    }
-    #coding-icons-div a{
+
+    #social-div a {
         margin: 10px !important;
     }
-    .project-div{
+
+    .coding-icon {
+        font-size: 40px !important;
+    }
+
+    #coding-div h1 {
+        font-size: 22px !important;
+    }
+
+    #coding-icons-div a {
+        margin: 10px !important;
+    }
+
+    .project-div {
         height: 270px !important;
     }
-    .project-description{
+
+    .project-description {
         height: 60px !important;
     }
-    .project-title{
+
+    .project-title {
         height: 50px !important;
     }
+
     .timeline-item {
         display: flex;
         flex-direction: column;
@@ -535,63 +597,84 @@
         width: 100%;
     }
 
-    .timeline-item.left, 
+    .timeline-item.left,
     .timeline-item.right {
         margin: 0px !important;
         text-align: center;
         justify-content: center !important;
         align-items: center !important;
         width: 50%;
-        margin-bottom:38% !important;
+        margin-bottom: 38% !important;
         margin-top: 10% !important;
         height: 100px !important;
     }
-    .timeline-item.left{
+
+    .timeline-item.left {
         margin-right: 30% !important;
     }
-    .timeline-item.right{
+
+    .timeline-item.right {
         margin-left: 30% !important;
     }
 
     .timeline-content {
-        width: 100%; /* Adjust width for better readability */
+        width: 100%;
+        /* Adjust width for better readability */
     }
-    .central-line{
+
+    .central-line {
         margin-top: -23px !important;
     }
-    #outer-div h2{
+
+    #outer-div h2 {
         font-size: 2rem !important;
         margin-top: 20%;
     }
-    #contact{
+
+    #contact {
         width: 60% !important;
         height: 300px !important;
     }
-    #contact h2{
+
+    #contact h2 {
         font-size: 24px !important;
         margin-top: -5px;
     }
-    #contact input,textarea{
+
+    #contact input,
+    textarea {
         padding: 10px !important;
     }
-    #single-head{
+
+    #single-head {
         margin-top: 10% !important;
         font-size: 24px !important;
     }
-    .status{
+
+    .status {
         text-align: center;
         align-items: center;
         justify-content: center;
-         margin-left: 30% !important;
+        margin-left: 30% !important;
     }
-    .left-div-project{
+
+    .left-div-project {
         width: auto !important;
         margin-left: 7% !important;
     }
-    .detailed_description{
-        max-height: 1000px !important;
+
+    .detailed_description {
+        display: none;
+    }
+    .demo_button{
+        margin-top: 10% !important;
+    }
+    .status{
+        margin: 0px !important;
+        margin-left: 25% !important;
     }
 }
+
 /* For max width 1350px */
 @media screen and (max-width: 1350px) {
     .two-section-div {
@@ -599,10 +682,12 @@
         justify-content: center;
         align-items: center;
     }
+
     .left-div-project img {
         width: 400px;
         height: 420px;
     }
+
     .right-div-project {
         width: 55%;
     }
@@ -614,10 +699,12 @@
         flex-direction: row;
         align-items: flex-start;
     }
+
     .left-div-project img {
         width: 350px;
         height: auto;
     }
+
     .right-div-project {
         width: 50%;
     }
@@ -630,20 +717,100 @@
         align-items: center;
         text-align: center;
     }
+
     .left-div-project img {
         width: 80%;
         height: auto;
         margin-bottom: 20px;
     }
+
     .right-div-project {
         width: 90%;
         text-align: justify;
     }
+
     .status {
         width: auto;
         text-align: center;
         display: inline-block;
+        #single-head{
+    text-align: center;
+    font-size: 28px;
+    font-family: "MerriWeather";
+    letter-spacing: 1px;
+}
+.group-head{
+    font-size: 24px;
+    text-align: center;
+}
+.single-section-div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 5% 10px 5%;
+    align-items: flex-start;
+    text-align: justify;
+}
+.two-section-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.left-div-project img{
+    width: 430px;
+    height: 450px;
+    margin-right: 40px !important;
+}
+.right-div-project{
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.status{
+    background-color: rgb(227, 227, 227);
+    color: #060011;
+    width: 100px;
+    padding: 8px 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.demo_button{
+    color: rgb(227, 227, 227);
+    background-color: rgb(219, 77, 0) !important;
+    padding: 10px 18px 10px 18px;
+    text-decoration: none;
+}
+.detailed_description{
+    margin-bottom: 43px;
+}
+.link-icon{
+    margin-left: 5px;
+}
+.tech-stack-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-icon{
+    font-size: 60px;
+    width: 100%;
+    
+}
+.tech-div{
+    margin: 0px 2%;
+}
+.tech-div:hover{
+    color: rgb(219, 77, 0);
+    cursor: pointer;
+    
+}
+.tech-name{
+    padding-left: 2px;
+}
     }
+
     .demo_button {
         display: block;
         text-align: center;
@@ -656,49 +823,31 @@
     #single-head {
         font-size: 22px;
     }
+
     .group-head {
         font-size: 20px;
     }
+
     .left-div-project img {
         width: 100%;
         height: auto;
     }
+
     .right-div-project {
         width: 100%;
         padding: 0 10px;
     }
+
     .tech-stack-icons {
         flex-wrap: wrap;
     }
+
     .tech-div {
         margin: 5px;
     }
+
     .tech-icon {
         font-size: 40px;
     }
 }
 
-/* For max width 400px */
-@media screen and (max-width: 400px) {
-    .two-section-div {
-        flex-direction: column;
-    }
-    .left-div-project img {
-        width: 100%;
-    }
-    .right-div-project {
-        width: 100%;
-    }
-    .status {
-        font-size: 14px;
-        padding: 6px 12px;
-        margin-right: 10% !important;
-    }
-    .demo_button {
-        font-size: 14px;
-        padding: 8px 14px;
-    }
-    .single-section-div{
-        margin-top: 90% !important;
-    }
-}
