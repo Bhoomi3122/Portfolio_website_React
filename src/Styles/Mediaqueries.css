@@ -10,6 +10,10 @@
         margin-left: 30px;
     }
 
+    #footer-section{
+        width: 104% !important;
+    }
+
     #problem-span,
     #contact-span {
         font-size: 45px !important;
