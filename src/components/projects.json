@@ -1,0 +1,55 @@
+
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Sahayak - Women Support Platform",
+        "shortDescription": "A MERN-based platform empowering women to raise issues.",
+        "longDescription": "Sahayak is a full-stack application that allows women to voice issues, read blogs, find helplines, and more. Built using React, Node.js, MongoDB, Express.",
+        "image": "/images/sahayak.png",
+        "techStack": ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS", "Framer Motion"],
+        "status": "Completed",
+        "keyFeatures": [
+          "Raise issue posts anonymously",
+          "Read safety-related blogs",
+          "Find emergency helpline numbers quickly",
+          "Responsive UI with intuitive navigation",
+          "Secure and scalable backend"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Portfolio Website",
+        "shortDescription": "My personal portfolio made using Vite, Tailwind, and Framer Motion.",
+        "longDescription": "This is the website you're viewing. It showcases my projects, skills, and more using clean UI and smooth animations.",
+        "image": "/images/portfolio.png",
+        "techStack": ["React", "Tailwind CSS", "Framer Motion", "Vite"],
+        "status": "Completed",
+        "keyFeatures": [
+          "Animated sections using Framer Motion",
+          "Responsive layout with Tailwind",
+          "Project filtering and navigation",
+          "Minimal, modern design",
+          "Fast loading with Vite bundler"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Task Manager API",
+        "shortDescription": "RESTful API for task management with authentication and data validation.",
+        "longDescription": "A comprehensive backend solution for task management applications. Features user authentication, task CRUD operations, and data validation.",
+        "image": "/images/task-api.png",
+        "techStack": ["Node.js", "Express", "MongoDB"],
+        "status": "Pending",
+        "keyFeatures": [
+          "User registration and authentication",
+          "JWT token-based security",
+          "Complete CRUD operations for tasks",
+          "Data validation and error handling",
+          "Pagination and filtering support"
+        ]
+      }
+    ]
+  }
+  
+  
