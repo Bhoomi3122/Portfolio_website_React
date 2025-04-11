@@ -7,7 +7,7 @@ import Home from './components/Home';
 import Particles from './components/Particles';
 import Footer from './components/Footer';
 import { motion } from 'framer-motion';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
